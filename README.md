@@ -1,5 +1,5 @@
 # ASHENFOAM
-Ablative Surface High-Enthalpy Non-equilibrium reaction package for OpenFOAM's Hy2Foam. This package allows surface reactions to be included in Hy2Foam.
+Ablative Surface High-Enthalpy Non-equilibrium reaction package for OpenFOAM's Hy2Foam. This package allows surface flux to be included in Hy2Foam either through constant flux distribution or surface reactions.
 
 
 To install, unzip ASHENFOAM.zip into /hyStrath-OF-v1612-/applications/solvers/compressible/hy2Foam/.
