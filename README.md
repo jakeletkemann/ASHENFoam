@@ -15,8 +15,8 @@ A new dictionary must be included in /constant in the project directory, called 
 
 ablationType takes a string "surfaceReactionPark" or "surfaceReactionACA." If none of these strings are present, no ablation model will be used.
 
-\item surfaceReactionPark utilises Park's phenomonological model of surface chemistry. 
-\item surfaceReactionACA utilises the ACA model of finite-rate surface chemistry. 
+- surfaceReactionPark utilises Park's phenomonological model of surface chemistry. 
+- surfaceReactionACA utilises the ACA model of finite-rate surface chemistry. 
 
 For ablation to be implemented properly, mass fraction entries and U in the 0 folder **must** have wall boundary conditions of fixedValue. If another boundary condition is selected, ablation calculations will be overwritten.  
 
