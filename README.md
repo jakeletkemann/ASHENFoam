@@ -16,7 +16,9 @@ A new dictionary must be included in /constant in the project directory, called 
 ablationType takes a string "surfaceReactionPark" or "surfaceReactionACA." If none of these strings are present, no ablation model will be used.
 
 - surfaceReactionPark utilises Park's phenomonological model of surface chemistry. 
-- surfaceReactionACA utilises the ACA model of finite-rate surface chemistry. 
+- surfaceReactionACA utilises the ACA model of finite-rate surface chemistry.
+
+Both of these models will calculate the mass fractions of each species included in your chemistry file (as determined in thermophysicalProperties) on the surface and the surface flux. Fluxes of each species on the surface will be recorded as _ablationFlux_ and the total blowing rate will be recorded as _mass_flux_ablation_.
 
 For ablation to be implemented properly, mass fraction entries and U in the 0 folder **must** have wall boundary conditions of fixedValue. If another boundary condition is selected, ablation calculations will be overwritten.  
 
