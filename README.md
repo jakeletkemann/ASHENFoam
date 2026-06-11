@@ -11,6 +11,8 @@ To install, Hy2Foam must be first installed into your OpenFOAM installation (see
 
 ## How to use:
 
+Use command "ASHENFoam" to run the solver. 
+
 A new dictionary must be included in /constant in the project directory, called ablationProperties. It allows for the following options:
 
 ablationType takes a string "surfaceReactionPark" or "surfaceReactionACA." If none of these strings are present, no ablation model will be used.
