@@ -1,0 +1,4 @@
+
+ablationAdditionalFunctions.H
+
+LIB = $(FOAM_USER_LIBBIN)/libhyTwoFoam
