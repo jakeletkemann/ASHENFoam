@@ -1,6 +1,15 @@
 # ASHENFoam
 Ablative Surface High-Enthalpy Non-equilibrium reaction package for OpenFOAM's Hy2Foam. This package allows surface fluxes from ablation models to be included in Hy2Foam.
 
+## Usage
+If you utilize the package in your research, please cite the following papers:
+
+Letkemann, J. A. T and Tropina, A. A., "Effects of Electronic Excitation on Hypersonic Ablation," Physics of Fluids, 2026. https://doi.org/10.1063/5.0335046
+
+## Contact Details
+Jake Letkemann : jakel00@tamu.edu / jakeletkemann00@gmail.com
+Albina Tropina : atropina@tamu.edu
+
 ## What does this package do?
 
 ASHENFoam produces wall-boundary mass fractions from a mass balance on the surface, where source terms from ablation models are included. The mixture-averaged sum of the source terms is used to calculate the flux on the surface, from which the boundary-value mass fractions are transported into the flow. 
