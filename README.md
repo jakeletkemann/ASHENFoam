@@ -2,7 +2,7 @@
 Ablative Surface High-Enthalpy Non-equilibrium reaction package for OpenFOAM's Hy2Foam. This package allows surface fluxes from ablation models to be included in Hy2Foam.
 
 ## Usage
-If you utilize the package in your research, please cite the following papers:
+If you utilize the package in your research, please cite the following paper:
 
 Letkemann, J. A. T and Tropina, A. A., "Effects of Electronic Excitation on Hypersonic Ablation," Physics of Fluids, 2026. https://doi.org/10.1063/5.0335046
 
