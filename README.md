@@ -8,6 +8,7 @@ Letkemann, J. A. T and Tropina, A. A., "Effects of Electronic Excitation on Hype
 
 ## Contact Details
 Jake Letkemann : jakel00@tamu.edu / jakeletkemann00@gmail.com
+
 Albina Tropina : atropina@tamu.edu
 
 ## What does this package do?
